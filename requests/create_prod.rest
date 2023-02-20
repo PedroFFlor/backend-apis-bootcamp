@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/productos
+Content-Type: application/json
+
+ {
+    "codigo" : 11121,
+    "descripcion" : "Pizza 12 porciones mozzarela",
+    "vidaUtil" : 30,
+    "marca" : "La Escalada",
+    "rubro" : "Precocido",
+    "subRubro" : "Congelado",
+    "embalaje" : 2
+}
+
+###
+
+POST http://localhost:3001/api/productos/
+
+{
+    
+}
