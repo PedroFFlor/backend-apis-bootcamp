@@ -99,5 +99,5 @@ app.use((request, response) => {
     }) 
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001 //no podemos elegir el puerto en produccion asi que se pone asi, si hay variable usala, sino el que elegimos
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
